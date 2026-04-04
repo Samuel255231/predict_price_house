@@ -1,0 +1,61 @@
+projet_ml/
+│
+├── backend/
+│   ├── app/
+│   │   ├── api/
+│   │   │   ├── routes/
+│   │   │   │   ├── predict.py        # Endpoint FastAPI/Flask pour faire des prédictions
+│   │   │   │   ├── health.py         # Endpoint de vérification (status API)
+│   │   │   │   └── train.py          # Endpoint pour lancer l'entraînement
+│   │   │   └── router.py             # Regroupe toutes les routes API
+│   │   │
+│   │   ├── config/
+│   │   │   ├── config.py             # Gestion des variables de configuration (env, YAML)
+│   │   │   └── logger.py             # Configuration des logs
+│   │   │
+│   │   ├── models/
+│   │   │   ├── 
+│   │   │   └── 
+│   │   │
+│   │   ├── services/
+│   │   │   ├── prediction_service.py # Logique métier pour prédiction
+│   │   │   ├── training_service.py   # Logique d'entraînement des modèles
+│   │   │   └── evaluation_service.py # Calcul des performances
+│   │   │
+│   │   ├── schemas/
+│   │   │   ├── input_schema.py       # Validation des données entrantes (Pydantic)
+│   │   │   └── output_schema.py      # Format des réponses API
+│   │   │
+│   │   └── main.py                  # Point d’entrée FastAPI ou Flask app
+│   │
+│   ├── data/
+│   │   ├── raw/                     # Données brutes
+│   │   ├── processed/               # Données nettoyées
+│   │   └── dataset.csv              # Dataset principal
+│   │
+│   ├── utils/
+│   │   ├── training.py              # Expérimentation modèle
+│   │   ├── evaluation.py            # Analyse des résultats 
+│   │   └── test_models.py           # Tests des modèles ML
+│   ├── models/
+│   │   ├── v1/                      # Version 1 du modèle sauvegardé (.pkl)
+│   │   └── v2/                      # Version 2 du modèle (.pkl)
+│   │
+│   ├── notebooks/
+│   │   ├── eda.ipynb                   # Analyse exploratoire (EDA)
+│   │   ├── feature_engineering.ipynb   # Création de nouvelles variables 
+│   │   └── preprocessing.ipynb         # Nettoyage et transformation des données
+│   │
+│   ├── requirements.txt             # Dépendances Python
+│   ├── README.md                    # Documentation du backend (FastAPI)
+│   └── Dockerfile                   # Containerisation du backend
+│
+├── frontend/
+│   └── README.md                    # Documentation du frontend (React)
+│
+├── .github/
+│   └── workflows/
+│       └── ci.yml                   # Pipeline CI/CD (tests + déploiement)
+│
+└── README.md                        # Documentation globale du projet
+

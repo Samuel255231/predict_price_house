@@ -1,6 +1,9 @@
-<<<<<<< HEAD
+backend/env/
 
+_pycache__/
 
-=======
->>>>>>> 3034882a424e6a4d240977663d620ae53b381f2a
-\venv
+.vscode/
+
+.idea/
+
+.env
