@@ -3,3 +3,11 @@ numpy
 scikit-learn
 matplotlib
 seaborn
+catboost
+
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+python-dotenv
+pymysql
