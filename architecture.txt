@@ -59,3 +59,44 @@ projet_ml/
 │
 └── README.md                        # Documentation globale du projet
 
+
+
+projet_ml/
+│
+├── backend/
+│   ├── app/
+│   │   ├── api/
+│   │   │   ├── routes/ (Ici on définir les routes FastAPI utils)
+│   │   │   │   ├── 
+│   │   │   │   ├── 
+│   │   │   │   └── 
+│   │   │   └── router.py             # Regroupe toutes les routes API
+│   │   │
+│   │   ├── config/
+│   │   │   ├── config.py             # Gestion des variables de configuration (env, etc)
+│   │   │   └── 
+│   │   │
+│   │   ├── models/ (Ici on cree le modèle de la base de données utils)
+│   │   │   ├── 
+│   │   │   └── 
+│   │   │
+│   │   ├── services/ (Ici, on cree les fonctions utils ou les microservices)
+│   │   │   ├── 
+│   │   │   ├── 
+│   │   │   └── 
+│   │   │
+│   │   ├── schemas/ (Validation des données entrantes (Pydantic))
+│   │   │   ├── 
+│   │   │   └── 
+│   │   │
+│   │   └── main.py                  # Point d’entrée FastAPI ou Flask app
+│   ├── models/ (Ici, on a le modèle sauvegardé (.pkl))
+│   │   ├── 
+│   │   └──
+│   │
+│   ├── requirements.txt             # Dépendances Python
+│
+├── frontend/
+│   └── 
+└── README.md                        # Documentation globale du projet
+
