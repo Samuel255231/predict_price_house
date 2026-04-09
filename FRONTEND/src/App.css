@@ -1,0 +1,81 @@
+/* Styles App */
+.navbar {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  color: red;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid red;
+  background-color: #ffe6e6;
+}
+
+.loading-message {
+  color: #666;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 15px;
+  border: 2px solid #28a745;
+  background-color: #d4edda;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 500px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+}
+
+.form-container label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.form-container input[type="number"],
+.form-container input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-container fieldset {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.form-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-container button:hover {
+  background-color: #0056b3;
+}

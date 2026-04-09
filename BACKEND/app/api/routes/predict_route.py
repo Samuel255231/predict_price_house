@@ -7,7 +7,7 @@ from app.services.db_service import save_prediction
 router = APIRouter()
 
 @router.post("/predict")
-def predict(data: PredictRequest):
+async def predict(data: PredictRequest):
     data_dict = data.dict()
     df = preprocess_input(data_dict)
     prix = predict_price(df)

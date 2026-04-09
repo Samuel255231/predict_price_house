@@ -100,3 +100,41 @@ projet_ml/
 │   └── 
 └── README.md                        # Documentation globale du projet
 
+
+
+│
+├── frontend/
+│   ├── public/                        # Static files
+│   │   └── 
+│   │
+│   ├── src/
+│   │   ├── main.jsx                   # React entry point
+│   │   ├── App.jsx                    # Main App
+│   │   ├── App.css                     
+│   │   ├── index.css                    # Styles
+│   │   │
+│   │   ├── api/                       # API configuration
+│   │   │   └── api.js                # Axios instance
+│   │   │
+│   │   ├── components/                # Components (MVC - V)
+│   │   │   ├── HistoryList.jsx          # User list component
+│   │   │   ├── PredictForm.jsx          # User form component
+│   │   │   ├── Navbar.jsx            # Navigation
+│   │   │   ├── Button.jsx            # Reusable button
+│   │   │   ├── Input.jsx             # Reusable input
+│   │   │   └── Loader.jsx            # Loading spinner
+│   │   │
+│   │   ├── pages/                     # Pages (Views)
+│   │   │   ├── Home.jsx              # Home page
+│   │   │   ├── PredictPage.jsx         # Users page
+│   │   │   ├── HistoryPage.jsx         # Login page
+│   │   │   └── 
+│   │   │
+│   │   └── services/                  # Services (Data)
+│   │       ├── predictService.js        # User API calls
+│   │       └── historyService.js        # Auth API calls
+│   │
+│   ├── .env                           # Environment variables
+│   ├── package.json                   # NPM dependencies
+│   ├── vite.config.js                # Vite configuration
+│   └── index.html                    # HTML entry point
